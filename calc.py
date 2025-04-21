@@ -11,9 +11,10 @@ def cal():
         res= num1 * num2
     elif opration == "/":
         res= num1 / num2
+    elif opration == "**":
+        res= (num1 ** num2)
     print (f"the result = {res}")
     
-while True:
-    cal()
 
- 
+while True:
+    cal() 
