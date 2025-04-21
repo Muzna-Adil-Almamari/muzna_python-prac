@@ -3,23 +3,26 @@ import math
 
 def cal():
     num1=int(input("Enter first number: "))
-    opration= input("Select an operation (+, -, *, /, **, !):")
+    operation= input("Select an operation (+, -, *, /, **, ! , |):")
     
 
-    if opration =="!":
+    if operation =="!":
         res = math.factorial(num1)
         print (f"the result = {res}")
+    elif operation == "|":
+        res = abs(num1)
+        print(f"The result = {res}")
     else:
         num2=int(input("Enter scond number: "))
-        if opration == "+":
+        if operation == "+":
             res= num1 + num2
-        elif opration == "-":
+        elif operation == "-":
             res= num1 - num2
-        elif opration == "*":
+        elif operation == "*":
             res= num1 * num2
-        elif opration == "/ ":
+        elif operation == "/ ":
             res= num1 / num2
-        elif opration == "**":
+        elif operation == "**":
             res= (num1 ** num2)
         else:
             print("Invalid operation.")
