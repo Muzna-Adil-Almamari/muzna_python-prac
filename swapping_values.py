@@ -20,6 +20,7 @@ print(b)
 #d=l[0]
 #print(c)
 #print(d)
+<<<<<<< HEAD
 a = 5
 b = 10
 a = a ^ b
@@ -30,3 +31,6 @@ print(a)
 print(b)
 
 
+=======
+print("---Task End---")
+>>>>>>> 5afe3c3cb1f33db9406c8fe6e9af04b11f777158
