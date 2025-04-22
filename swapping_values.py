@@ -1,12 +1,14 @@
 #a=10
 #b=20
+
+'''
 a="dddd"
 b= 29
 a,b = b,a
 
 print (a)
 print(b)
-
+'''
 
 #c="fff"
 #d=3
@@ -18,4 +20,13 @@ print(b)
 #d=l[0]
 #print(c)
 #print(d)
+a = 5
+b = 10
+a = a ^ b
+b = a ^ b
+a = a ^ b
+print(a)
+
+print(b)
+
 
